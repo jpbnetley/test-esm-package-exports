@@ -1,7 +1,7 @@
 {
   "name": "@jpbnetley/test-esm-package-export",
   "private": true,
-  "version": "0.0.2",
+  "version": "0.0.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -24,7 +24,7 @@
     "build": "vite build",
     "tsc": "tsc",
     "version": "pnpm changeset",
-    "ci:publish": "pnpm publish -r"
+    "ci:publish": "pnpm publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
