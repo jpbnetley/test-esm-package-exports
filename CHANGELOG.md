@@ -1,5 +1,11 @@
 # @jpbnetley/test-esm-package-export
 
+## 0.0.4
+
+### Patch Changes
+
+- ccd3ab2: no squash for pr or release
+
 ## 0.0.3
 
 ### Patch Changes
