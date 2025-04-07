@@ -1,5 +1,11 @@
 # @jpbnetley/test-esm-package-export
 
+## 0.0.5
+
+### Patch Changes
+
+- 697d839: update exports to include internal and external'
+
 ## 0.0.4
 
 ### Patch Changes

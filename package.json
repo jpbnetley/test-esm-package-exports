@@ -1,6 +1,6 @@
 {
   "name": "@jpbnetley/test-esm-package-export",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -16,13 +16,13 @@
   "types": "./dist/main.d.ts",
   "exports": {
     ".": {
-    "types": "./dist/main.d.ts",
-    "import": "./dist/main.js"
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.js"
     },
     "./exports": {
       "import": "./dist/exports.js",
       "types": "./dist/exports/index.d.ts"
-    }   
+    }
   },
   "scripts": {
     "dev": "vite",
