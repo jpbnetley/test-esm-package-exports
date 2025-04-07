@@ -1,5 +1,12 @@
 # @jpbnetley/test-esm-package-export
 
+## 0.0.3
+
+### Patch Changes
+
+- af21690: rerun to change version
+- cd05512: anotehr version no squash for pr
+
 ## 0.0.2
 
 ### Patch Changes
