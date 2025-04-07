@@ -15,8 +15,14 @@
   "module": "./dist/main.js",
   "types": "./dist/main.d.ts",
   "exports": {
-    "types": "./dist/exports/index.d.ts",
-    "import": "./dist/exports.js"
+    ".": {
+    "types": "./dist/main.d.ts",
+    "import": "./dist/main.js"
+    },
+    "./exports": {
+      "import": "./dist/exports.js",
+      "types": "./dist/exports/index.d.ts"
+    }   
   },
   "scripts": {
     "dev": "vite",
