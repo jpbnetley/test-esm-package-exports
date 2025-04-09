@@ -1,5 +1,11 @@
 # @jpbnetley/test-esm-package-export
 
+## 0.0.7
+
+### Patch Changes
+
+- e865731: test build and publish
+
 ## 0.0.6
 
 ### Patch Changes
