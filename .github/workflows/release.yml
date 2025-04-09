@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env: 
+  node_version: 22
+
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
 jobs:
@@ -21,10 +24,10 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 20.x
+      - name: Setup Node.js ${{ env.node_version }}
         uses: actions/setup-node@v4
         with:
-          node-version: 22.x
+          node-version: ${{ env.node_version }}
           registry-url: 'https://npm.pkg.github.com'
       
       - uses: pnpm/action-setup@v4
