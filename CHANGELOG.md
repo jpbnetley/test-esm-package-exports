@@ -1,5 +1,11 @@
 # @jpbnetley/test-esm-package-export
 
+## 0.0.6
+
+### Patch Changes
+
+- 772bd52: test new version when running changeset publish
+
 ## 0.0.5
 
 ### Patch Changes
