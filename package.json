@@ -29,7 +29,9 @@
     "build": "vite build",
     "tsc": "tsc",
     "version": "pnpm changeset",
-    "ci:publish": "pnpm run build && pnpm changeset publish"
+    "ci:hasChanges":"pnpm changeset status --since=main",
+    "ci:publish": "pnpm run build && pnpm changeset publish",
+    "ci:git:tag": "git push --follow-tags"
   },
   "devDependencies": {
     "@changesets/cli": "^2.28.1",
